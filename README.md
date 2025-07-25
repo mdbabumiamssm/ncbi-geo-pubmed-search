@@ -38,8 +38,14 @@ pip install git+https://github.com/mdbabumiamssm/ncbi-geo-pubmed-search.git
 ```python
 from ncbi_geo_pubmed import NCBISearcher
 
-# Initialize with your email (required by NCBI)
-searcher = NCBISearcher(email="your.email@example.com")
+# Initialize with custom settings(required by NCBI)
+searcher = NCBISearcher(
+    email="your.email@example.com",
+    api_key="your_api_key",  # Optional, provides higher rate limits
+    request_delay=0.5,       # Delay between requests (seconds)
+    max_retries=5,          # Maximum retry attempts
+    backoff_factor=2        # Exponential backoff multiplier
+)
 
 # Search both PubMed and GEO
 results = searcher.search(
