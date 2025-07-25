@@ -28,7 +28,7 @@ pip install ncbi-geo-pubmed-search
 Or install the latest development version:
 
 ```bash
-pip install git+https://github.com/yourusername/ncbi-geo-pubmed-search.git
+pip install git+https://github.com/mdbabumiamssm/ncbi-geo-pubmed-search.git
 ```
 
 ## Quick Start
@@ -248,8 +248,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 If you encounter any problems or have questions:
 
-1. Check the [FAQ](https://github.com/yourusername/ncbi-geo-pubmed-search/wiki/FAQ)
-2. Look through [existing issues](https://github.com/yourusername/ncbi-geo-pubmed-search/issues)
+1. Check the [FAQ](https://github.com/mdbabumiamssm/ncbi-geo-pubmed-search/wiki/FAQ)
+2. Look through [existing issues](https://github.com/mdbabumiamssm/ncbi-geo-pubmed-search/issues)
 3. Open a new issue with a detailed description
 
 ## Citation
@@ -258,10 +258,10 @@ If you use this package in your research, please cite:
 
 ```bibtex
 @software{ncbi-geo-pubmed-search,
-  author = {{ Your Name }},
+  author = {{ MD BABU MIA }},
   title = {{ ncbi-geo-pubmed-search: A powerful Python package for searching NCBI GEO and PubMed databases with advanced filtering }},
   year = {2024},
-  url = {https://github.com/yourusername/ncbi-geo-pubmed-search}
+  url = {https://github.com/mdbabumiamssm/ncbi-geo-pubmed-search}
 }
 ```
 
